@@ -1,0 +1,2395 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16558168764,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7616802329,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11740768,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to login",
+            "match": {
+              "location": "Login_StepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000988298,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to \"Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Account Activity\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:18.165Z",
+        "before": [
+          {
+            "result": {
+              "duration": 114763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "the title should be Zero - Account activity",
+        "description": "",
+        "id": "the-title-should-be-zero---account-activity;the-title-should-be-zero---account-activity",
+        "after": [
+          {
+            "result": {
+              "duration": 151112790,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23825936,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the tile should contains \"Zero - Account Activity\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Activity\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_StepDefinition.the_tile_should_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224290,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the dropDown option should contains\" Savings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Savings\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_dropDown_option_should_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190058,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the show Transactions table should contains",
+            "match": {
+              "location": "AccountActivity_StepDefinitions.the_show_Transactions_table_should_contains(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date",
+                  "Description",
+                  "Deposit",
+                  "Withdrawal"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233690,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "DropDown option should have following options",
+            "match": {
+              "location": "AccountActivity_StepDefinitions.dropdown_option_should_have_following_options(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Savings",
+                  "Checking",
+                  "Loan",
+                  "Credit Card",
+                  "Brokerage"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@AccountActivityPAge"
+          }
+        ]
+      }
+    ],
+    "name": "the title should be Zero - Account activity",
+    "description": "",
+    "id": "the-title-should-be-zero---account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T12:09:18.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4562386,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Savings\taccount\tredirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;savings-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 128244716,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23257639183,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4683875333,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user clicks on\tSavings\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_clicks_on_Savings_link_on_the_Account_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4572930335,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3201190230,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Account\tdrop down should have Savings selected",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.account_drop_down_should_have_Savings_selected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:54.025Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2395002,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Brokerage account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;brokerage-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 109048095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18033147195,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4463455153,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks on\tBrokerage link on the Account Summary page",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_clicks_on_Brokerage_link_on_the_Account_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3920657097,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3107209108,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Account\tdrop down should have Brokerage selected",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.account_drop_down_should_have_Brokerage_selected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:10:23.662Z",
+        "before": [
+          {
+            "result": {
+              "duration": 92750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Checking\taccount\tredirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;checking-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 153604366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9382296676,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4748792934,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user clicks on\tChecking link on the Account Summary page",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_clicks_on_Checking_link_on_the_Account_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4039065952,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3112584588,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Account\tdrop down should have Checking selected",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.account_drop_down_should_have_Checking_selected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:10:45.099Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72543,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Credit\tCard\taccount\tredirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity;credit-card-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 97193637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9898579225,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4226091054,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks on\tCredit card\tlink on\tthe\tAccount\tSummary\tpage",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_clicks_on_Credit_card_link_on_the_Account_Summary_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4168151217,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the Account Activity page should be displayed",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_Account_Activity_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3110859284,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Account\tdrop down should have Credit Card selected",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.account_drop_down_should_have_Credit_Card_selected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating\tto specific accounts in\tAccounts Activity",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16650265979,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7487246645,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21779821,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login",
+            "match": {
+              "location": "Login_StepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:18.161Z",
+        "before": [
+          {
+            "result": {
+              "duration": 151026,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Zero- Account Summary is visible",
+        "description": "",
+        "id": "zero---account-summary-is-visible;zero--account-summary-is-visible",
+        "after": [
+          {
+            "result": {
+              "duration": 94015753,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19015232,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the tile should contains \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_StepDefinition.the_tile_should_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3008408304,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the main page should have following account types",
+            "match": {
+              "location": "AccountSummary_StepDefinitions.the_main_page_should_have_following_account_types(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cash Accounts",
+                  "Investment Accounts",
+                  "Credit Accounts",
+                  "Loan Accounts"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3003525059,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Credit Account table must have following feature",
+            "match": {
+              "location": "AccountSummary_StepDefinitions.credit_Account_table_must_have_following_feature(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Account",
+                  "Credit Card",
+                  "Balance"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@GetTitleOfTheMainPage"
+          }
+        ]
+      }
+    ],
+    "name": "Zero - Account Summary is visible",
+    "description": "",
+    "id": "zero---account-summary-is-visible",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23565610620,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:18.157Z",
+        "before": [
+          {
+            "result": {
+              "duration": 108431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search date range",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-date-range",
+        "after": [
+          {
+            "result": {
+              "duration": 130484275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6143457251,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3094366607,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enter date range from \"2012-09-01\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-01\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 47
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.the_user_enter_date_range_from_to(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3086255458,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3449550091,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the result should be sorted by most resent date",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.the_result_should_be_sorted_by_most_resent_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3063661430,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enter date range from \"2012-09-02\" to \"2012-09-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012-09-02\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"2012-09-06\"",
+                  "offset": 47
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.the_user_enter_date_range_from_to(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12392186038,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountActivityNavigate_StepDefinitions.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:10:00.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 72744,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Search\tdescription",
+        "description": "",
+        "id": "find-transactions-in-account-activity;search-description",
+        "after": [
+          {
+            "result": {
+              "duration": 115248109,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000121898,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user accesses the Find Transactions tab",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.the_user_accesses_the_Find_Transactions_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3075365594,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters description \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3086880650,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3237359123,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "result table should only show descriptions containing \"ONLINE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ONLINE\"",
+                  "offset": 54
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.result_table_should_only_show_descriptions_containing(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3029839005,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters description \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 28
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.the_user_enters_description(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3115351366,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click search",
+            "match": {
+              "location": "FindTransactions_StepDefinitions.click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3099279344,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "result table should only show description containing \"OFFICE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OFFICE\"",
+                  "offset": 53
+                }
+              ],
+              "location": "FindTransactions_StepDefinitions.result_table_should_only_show_description_containing(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Find Transactions in Account Activity",
+    "description": "",
+    "id": "find-transactions-in-account-activity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/FindTransactions.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17609752402,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:18.156Z",
+        "before": [
+          {
+            "result": {
+              "duration": 144917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Only authorized user login",
+        "description": "",
+        "id": "login;only-authorized-user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 151106119,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7545091649,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9816441,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to login",
+            "match": {
+              "location": "Login_StepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15925145,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the tile should contains \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_StepDefinition.the_tile_should_contains(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@positiveLogin"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5924561644,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:43.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "The user login with wrong credential",
+        "description": "",
+        "id": "login;the-user-login-with-wrong-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 229829181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4238202514,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user logs in with \"user12\" and \"user123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user12\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"user123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11644559,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user is not able to login",
+            "match": {
+              "location": "Login_StepDefinition.the_user_is_not_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46727937,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Alert message should displayed",
+            "match": {
+              "location": "Login_StepDefinition.alert_message_should_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@NegativeLogin"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13469738628,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:53.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "The user login with blank credential",
+        "description": "",
+        "id": "login;the-user-login-with-blank-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 119436372,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4235647371,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user logs in with \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 29
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9972144,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the user is not able to login",
+            "match": {
+              "location": "Login_StepDefinition.the_user_is_not_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50024270,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Alert message should displayed",
+            "match": {
+              "location": "Login_StepDefinition.alert_message_should_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T12:09:18.160Z",
+        "before": [
+          {
+            "result": {
+              "duration": 126166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add a new payee",
+        "description": "",
+        "id": "add-a-new-payee-under-pay-bills;add-a-new-payee",
+        "after": [
+          {
+            "result": {
+              "duration": 97262489,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16877775174,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7830281981,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5344360543,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3173956378,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Add new payee tab",
+            "match": {
+              "location": "NewPayee_StepDefinition.add_new_payee_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7774311421,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "creates new payee using following information",
+            "match": {
+              "location": "NewPayee_StepDefinition.creates_new_payee_using_following_information(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Payee Name",
+                  "The Law Offices of Hyde, Price \u0026 Scarhks"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Address",
+                  "100 Same, st, Anytown, USA, 10001"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Details",
+                  "XYZ account"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79906154,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "message The new payee The LAw Offices of Hyde, price \u0026 Scharks was successfully created. should be displayed",
+            "match": {
+              "location": "NewPayee_StepDefinition.message_The_new_payee_The_LAw_Offices_of_Hyde_price_Scharks_was_successfully_created_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Add a new payee under pay bills",
+    "description": "",
+    "id": "add-a-new-payee-under-pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NewPayee.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17420449810,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7530262057,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9147322,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login",
+            "match": {
+              "location": "Login_StepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5431040673,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:18.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 160654,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Pages title is Zero - pay Bills",
+        "description": "",
+        "id": "zero---pay-bills;pages-title-is-zero---pay-bills",
+        "after": [
+          {
+            "result": {
+              "duration": 169826358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13386629,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the tile should contains \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_StepDefinition.the_tile_should_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2179750406,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user enter related information",
+            "match": {
+              "location": "PayBills_StepDefinitions.the_user_enter_related_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3537263545,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user see the confirmations message",
+            "match": {
+              "location": "PayBills_StepDefinitions.the_user_see_the_confirmations_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12641334205,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5454209237,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10703962,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to login",
+            "match": {
+              "location": "Login_StepDefinition.user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4658306419,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:54.469Z",
+        "before": [
+          {
+            "result": {
+              "duration": 67704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Sending Payment without incorrect way",
+        "description": "",
+        "id": "zero---pay-bills;sending-payment-without-incorrect-way",
+        "after": [
+          {
+            "result": {
+              "duration": 114296146,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14685927,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the tile should contains \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 25
+                }
+              ],
+              "location": "Login_StepDefinition.the_tile_should_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906124278,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enter wrong information",
+            "match": {
+              "location": "PayBills_StepDefinitions.the_user_enter_wrong_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3191553501,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user get warning message",
+            "match": {
+              "location": "PayBills_StepDefinitions.the_user_get_warning_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Zero - Pay Bills",
+    "description": "",
+    "id": "zero---pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PayBills.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T12:09:18.160Z",
+        "before": [
+          {
+            "result": {
+              "duration": 121128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Available currencies",
+        "description": "",
+        "id": "purchase-foreign-currency;available-currencies",
+        "after": [
+          {
+            "result": {
+              "duration": 209646349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17392845657,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7567126269,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5325090055,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3251232701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3042143858,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "following currencies should be available",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.following_currencies_should_be_available(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Australia (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Canada (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Switzerland (franc)"
+                ]
+              },
+              {
+                "cells": [
+                  "China\t(yuan)"
+                ]
+              },
+              {
+                "cells": [
+                  "Denmark (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "Eurozone (euro)"
+                ]
+              },
+              {
+                "cells": [
+                  "Great Britain (pound)"
+                ]
+              },
+              {
+                "cells": [
+                  "Japan\t(yen)"
+                ]
+              },
+              {
+                "cells": [
+                  "Mexico (peso)"
+                ]
+              },
+              {
+                "cells": [
+                  "Norway (krone)"
+                ]
+              },
+              {
+                "cells": [
+                  "New Zealand (dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Singapore\t(dollar)"
+                ]
+              },
+              {
+                "cells": [
+                  "Thailand (baht)"
+                ]
+              },
+              {
+                "cells": [
+                  "Sweden (krona)"
+                ]
+              },
+              {
+                "cells": [
+                  "Hong Kong (dollar)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:09:54.997Z",
+        "before": [
+          {
+            "result": {
+              "duration": 86576,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Error message for not selecting currency",
+        "description": "",
+        "id": "purchase-foreign-currency;error-message-for-not-selecting-currency",
+        "after": [
+          {
+            "result": {
+              "duration": 120898816,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12952205076,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5026030854,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4782566262,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3161513208,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3315049728,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user tires to calculate cost without selecting a currency",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.user_tires_to_calculate_cost_without_selecting_a_currency()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3012734925,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T12:10:27.369Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1819183,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Error message for not entering value",
+        "description": "",
+        "id": "purchase-foreign-currency;error-message-for-not-entering-value",
+        "after": [
+          {
+            "result": {
+              "duration": 141653851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3136677939,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user in the login page",
+            "match": {
+              "location": "Login_StepDefinition.the_user_in_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5771051246,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "the user logs in with \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 37
+                }
+              ],
+              "location": "Login_StepDefinition.the_user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4994056789,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user navigates to \"Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 22
+                }
+              ],
+              "location": "AccountActivity_StepDefinitions.the_user_navigates_to(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3137588155,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user accesses the Purchase foreign currency cash tab",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.the_user_accesses_the_Purchase_foreign_currency_cash_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3149266232,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user tried to calculate cost without entering a value",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.user_tried_to_calculate_cost_without_entering_a_value()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3007206157,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "PurchaseForeignCurrency_StepDefinitions.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase Foreign Currency",
+    "description": "",
+    "id": "purchase-foreign-currency",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurchaseForeignCurrency.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

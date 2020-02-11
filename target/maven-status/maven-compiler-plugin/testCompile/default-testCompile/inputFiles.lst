@@ -1,0 +1,17 @@
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/pages/BasePage.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/PayBills_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/pages/ZeroBankMainPage.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/utilities/BrowserUtils.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/Login_StepDefinition.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/runners/FailedTestRunner.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/utilities/ConfigurationReader.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/Hooks.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/PurchaseForeignCurrency_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/AccountSummary_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/AccountActivity_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/pages/LoginPage.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/utilities/Driver.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/AccountActivityNavigate_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/FindTransactions_StepDefinitions.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/runners/CukesRunner.java
+/Users/nijattursun/IdeaProjects/Nijat/src/test/java/com/zerobank/step_definitions/NewPayee_StepDefinition.java
